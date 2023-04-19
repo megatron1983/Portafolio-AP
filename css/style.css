@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 1.2rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+#navegacion {
+  color: white !important;
+  padding: 1rem 4rem;
+  background-color: rgb(48, 70, 194) !important;
+  position: fixed;
+  /*z-index: 999;*/
+  width: 100%;
+}
+.navbar-nav li a {
+  color: white;
+}
+
+.logo {
+  width: 6rem;
+}
+.git {
+  fill: cornsilk;
+  width: 20px;
+  margin-left: 1rem;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  margin: 0 !important;
+}
+
+.iconos li {
+  margin-left: 1rem;
+}
+
+.iconos .login {
+  padding: 0%;
+  font-size: 0.85rem;
+}
+
+#inicio {
+  background: linear-gradient(rgba(4, 10, 105, 0.4), rgba(0, 0, 0, 0.9)),
+    url("../img/banner.jpg");
+  height: 500px;
+  color: white;
+}
+
+#inicio h1 {
+  padding-top: 200px;
+}
+
+#sobre-mi,
+#experiencia-laboral,
+#educacion,
+#habilidades,
+#proyectos,
+#contacto {
+  padding: 5rem 4rem;
+}
+
+#sobre-mi img {
+  width: 250px;
+}
+
+.titulo {
+  color: rgb(48, 70, 194);
+  text-align: left;
+  padding-bottom: 3rem;
+}
+
+.trabajo {
+  padding: 1 rem;
+}
+
+.fondo-datos {
+  background-color: rgb(48, 70, 194);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#experiencia-laboral .titulo,
+#educacion .titulo {
+  padding-bottom: 3rem;
+}
+
+.modal-title,
+.form-label {
+  color: gray;
+}
+
+progress[value] {
+  /* Elimino la apariencia por defecto */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Quito el borde que aparece en Firefox */
+  border: none;
+
+  /* Añado mis propios estilos */
+  width: 270px;
+  height: 30px;
+  overflow: hidden;
+
+  /*  Estos estilos solo se aplicaran al fondo de la barra en mozilla */
+  border: 1px inset #666;
+  background-color: #d8d8d8;
+}
+
+#habilidades .progress {
+  padding: 2rem 1rem;
+}
+
+.progress i {
+  font-size: 2rem;
+}
+
+.progress p {
+  padding: 0 1rem;
+}
+
+.progress {
+  background-color: rgb(223, 224, 230);
+  border-radius: 0;
+  align-items: center;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+footer {
+  background-color: rgb(48, 70, 194);
+  padding: 2rem 2rem;
+  color: white;
+}
+
+@media (max-width: 1015px) {
+  .nav-link {
+    font-size: 0.85rem;
+  }
+  .navbar-toggler {
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #sobre-mi .titulo {
+    margin-top: 4rem;
+  }
+  #experiencia-laboral .trabajo,
+  #educacion .trabajo {
+    margin-bottom: 1rem;
+  }
+  .card {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  #sobre-mi,
+  #experiencia-laboral,
+  #educacion,
+  #habilidades,
+  #proyectos,
+  #contacto {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 482px) {
+  .menu-celu {
+    display: flex;
+    justify-content: space-between;
+    width: 18rem;
+  }
+  .navbar > .container,
+  #navegacion .navbar {
+    display: inline-block !important;
+  }
+  #navegacion .iconos {
+    margin-top: 2rem !important;
+  }
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 468px) {
+  #inicio .titulo-banner {
+    font-size: 1.5rem;
+    padding-top: 100px;
+  }
+  #inicio {
+    height: 300px;
+  }
+}
