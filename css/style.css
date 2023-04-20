@@ -14,7 +14,7 @@ ul li {
   padding: 1rem 4rem;
   background-color: rgb(48, 70, 194) !important;
   position: fixed;
-  /*z-index: 999;*/
+  z-index: 999;
   width: 100%;
 }
 .navbar-nav li a {
@@ -34,6 +34,13 @@ ul li {
   display: flex;
   flex-direction: row;
   margin: 0 !important;
+}
+
+.botones-back {
+  display: flex;
+  flex-direction: row;
+  margin: 0 !important;
+  justify-content: flex-end;
 }
 
 .iconos li {
@@ -141,6 +148,10 @@ footer {
   background-color: rgb(48, 70, 194);
   padding: 2rem 2rem;
   color: white;
+}
+
+.modal-backdrop {
+  position: static !important;
 }
 
 @media (max-width: 1015px) {
