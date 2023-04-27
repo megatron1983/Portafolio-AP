@@ -144,6 +144,54 @@
             </div>
          </div>
       </section>
+      <!-- Botones Modales-->
+
+      <div class="col-lg-12 col-sm-12 ">
+         <ul class="botones-back">
+
+            <li><button type="button" class="btn login" data-bs-toggle="modal" data-bs-target="#editar-portada">
+                  <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+               </button>
+
+            </li>
+
+         </ul>
+      </div>
+      <!-- Modal  editar-portada-->
+      <div class="modal fade" id="editar-portada" tabindex="-1" aria-labelledby="#editar-portada" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <form>
+
+
+                     <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Título</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     </div>
+
+                     <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Imagen de Fondo</label>
+                        <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                     </div>
+
+                     <button type="submit" class="btn btn-primary">Guardar</button>
+                  </form>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Final modal editar-portada-->
       <section id="sobre-mi">
          <div class="container">
             <div class="row">
@@ -1000,22 +1048,278 @@
                         <progress id="html5" max="100" value="91"></progress>
                         <span></span>
                      </div>
+                     <!-- Botones Modales-->
 
+                     <div class="col-lg-12 col-sm-12 ">
+                        <ul class="botones-back">
+
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#editar-html">
+                                 <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                              </button>
+
+                           </li>
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#eliminar-html">
+                                 <i class="fa-solid fa-trash-can fa-2x" style="color: #1cad7d;"></i>
+                              </button></li>
+                        </ul>
+                     </div>
+                     <!-- Modal  editar-html-->
+                     <div class="modal fade" id="editar-html" tabindex="-1" aria-labelledby="#editar-html"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <form>
+
+
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Icono</label>
+                                       <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                       <input type="text" class="form-control" id="exampleInputEmail1"
+                                          aria-describedby="emailHelp">
+
+                                    </div>
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Porcentaje</label>
+                                       <input type="number" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+
+
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                 </form>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal editar-html-->
+
+                     <!-- Modal  eliminar-html-->
+                     <div class="modal fade" id="eliminar-html" tabindex="-1" aria-labelledby="#eliminar-html"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <p>¿Desea eliminar este lenguaje?</p>
+
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si</button>
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal-eliminar-html -->
                      <div class="progress">
                         <i class="fa-brands fa-css3-alt" style="color: #375281;"></i>
                         <p>CSS3</p>
                         <progress id="css3" max="100" value="72"></progress>
                         <span></span>
                      </div>
+                     <!-- Botones Modales-->
 
+                     <div class="col-lg-12 col-sm-12 ">
+                        <ul class="botones-back">
+
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#editar-html">
+                                 <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                              </button>
+
+                           </li>
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#eliminar-css">
+                                 <i class="fa-solid fa-trash-can fa-2x" style="color: #1cad7d;"></i>
+                              </button></li>
+                        </ul>
+                     </div>
+                     <!-- Modal  editar-css-->
+                     <div class="modal fade" id="editar-css" tabindex="-1" aria-labelledby="#editar-css"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <form>
+
+
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Icono</label>
+                                       <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                       <input type="text" class="form-control" id="exampleInputEmail1"
+                                          aria-describedby="emailHelp">
+
+                                    </div>
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Porcentaje</label>
+                                       <input type="number" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+
+
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                 </form>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal editar-css-->
+
+                     <!-- Modal  eliminar-css-->
+                     <div class="modal fade" id="eliminar-css" tabindex="-1" aria-labelledby="#eliminar-css"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <p>¿Desea eliminar este lenguaje?</p>
+
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si</button>
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal-eliminar-css -->
                      <div class="clear"></div>
                      <div class="progress">
                         <i class="fa-brands fa-square-js" style="color: #375281;"></i>
-                        <p>Java Script</p>
+                        <p>JavaScript</p>
                         <progress id="javascript" max="100" value="86"></progress>
                         <span></span>
                      </div>
+                     <!-- Botones Modales-->
+
+                     <div class="col-lg-12 col-sm-12 ">
+                        <ul class="botones-back">
+
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#editar-js">
+                                 <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                              </button>
+
+                           </li>
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#eliminar-js">
+                                 <i class="fa-solid fa-trash-can fa-2x" style="color: #1cad7d;"></i>
+                              </button></li>
+                        </ul>
+                     </div>
                   </div>
+
+                  <!-- Modal  editar-js-->
+                  <div class="modal fade" id="editar-js" tabindex="-1" aria-labelledby="#editar-js" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                 aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                              <form>
+
+
+
+                                 <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Icono</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1">
+                                 </div>
+
+                                 <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp">
+
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Porcentaje</label>
+                                    <input type="number" class="form-control" id="exampleInputPassword1">
+                                 </div>
+
+
+
+                                 <button type="submit" class="btn btn-primary">Guardar</button>
+                              </form>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Final modal editar-js-->
+
+                  <!-- Modal  eliminar-js-->
+                  <div class="modal fade" id="eliminar-js" tabindex="-1" aria-labelledby="#eliminar-js"
+                     aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                 aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                              <p>¿Desea eliminar este lenguaje?</p>
+
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si</button>
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Final modal-eliminar-js -->
                   <div class="col-lg-6 col-sm-12">
                      <div class="progress">
                         <i class="fa-brands fa-angular" style="color: #375281;"></i>
@@ -1024,21 +1328,276 @@
                         <span></span>
                      </div>
                      <div class="clear"></div>
+                     <!-- Botones Modales-->
 
+                     <div class="col-lg-12 col-sm-12 ">
+                        <ul class="botones-back">
+
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#editar-angular">
+                                 <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                              </button>
+
+                           </li>
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#eliminar-angular">
+                                 <i class="fa-solid fa-trash-can fa-2x" style="color: #1cad7d;"></i>
+                              </button></li>
+                        </ul>
+                     </div>
+                     <!-- Modal  editar-angular-->
+                     <div class="modal fade" id="editar-angular" tabindex="-1" aria-labelledby="#editar-angular"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <form>
+
+
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Icono</label>
+                                       <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                       <input type="text" class="form-control" id="exampleInputEmail1"
+                                          aria-describedby="emailHelp">
+
+                                    </div>
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Porcentaje</label>
+                                       <input type="number" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+
+
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                 </form>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal editar-angular-->
+
+                     <!-- Modal  eliminar-angular-->
+                     <div class="modal fade" id="eliminar-angular" tabindex="-1" aria-labelledby="#eliminar-angular"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <p>¿Desea eliminar este lenguaje?</p>
+
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si</button>
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal-eliminar-angular -->
                      <div class="progress">
                         <i class="fa-brands fa-php" style="color: #375281;"></i>
                         <p>PHP</p>
                         <progress id="php" max="100" value="79"></progress>
                         <span></span>
                      </div>
+                     <!-- Botones Modales-->
 
+                     <div class="col-lg-12 col-sm-12 ">
+                        <ul class="botones-back">
+
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#editar-php">
+                                 <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                              </button>
+
+                           </li>
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#eliminar-php">
+                                 <i class="fa-solid fa-trash-can fa-2x" style="color: #1cad7d;"></i>
+                              </button></li>
+                        </ul>
+                     </div>
+                     <!-- Modal  editar-php-->
+                     <div class="modal fade" id="editar-php" tabindex="-1" aria-labelledby="#editar-php"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <form>
+
+
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Icono</label>
+                                       <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                       <input type="text" class="form-control" id="exampleInputEmail1"
+                                          aria-describedby="emailHelp">
+
+                                    </div>
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Porcentaje</label>
+                                       <input type="number" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+
+
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                 </form>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal editar-php-->
+
+                     <!-- Modal  eliminar-php-->
+                     <div class="modal fade" id="eliminar-php" tabindex="-1" aria-labelledby="#eliminar-php"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <p>¿Desea eliminar este lenguaje?</p>
+
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si</button>
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal-eliminar-php -->
                      <div class="progress">
                         <i class="fa-brands fa-java" style="color: #375281;"></i>
                         <p>Java</p>
                         <progress id="java" max="100" value="36"></progress>
                         <span></span>
                      </div>
+                     <!-- Botones Modales-->
 
+                     <div class="col-lg-12 col-sm-12 ">
+                        <ul class="botones-back">
+
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#editar-java">
+                                 <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                              </button>
+
+                           </li>
+                           <li><button type="button" class="btn login" data-bs-toggle="modal"
+                                 data-bs-target="#eliminar-java">
+                                 <i class="fa-solid fa-trash-can fa-2x" style="color: #1cad7d;"></i>
+                              </button></li>
+                        </ul>
+                     </div>
+                     <!-- Modal  editar-java-->
+                     <div class="modal fade" id="editar-java" tabindex="-1" aria-labelledby="#editar-java"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <form>
+
+
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Icono</label>
+                                       <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+                                    <div class="mb-3">
+                                       <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                       <input type="text" class="form-control" id="exampleInputEmail1"
+                                          aria-describedby="emailHelp">
+
+                                    </div>
+                                    <div class="mb-3">
+                                       <label for="exampleInputPassword1" class="form-label">Porcentaje</label>
+                                       <input type="number" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+
+
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                 </form>
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal editar-java-->
+
+                     <!-- Modal  eliminar-java-->
+                     <div class="modal fade" id="eliminar-java" tabindex="-1" aria-labelledby="#eliminar-java"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                 <p>¿Desea eliminar este lenguaje?</p>
+
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si</button>
+                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Final modal-eliminar-java -->
                      <div class="clear"></div>
                   </div>
 
@@ -1065,7 +1624,97 @@
                            Página</a>
                      </div>
                   </div>
+                  <!-- Botones Modales-->
+
+                  <div class="col-lg-12 col-sm-12 ">
+                     <ul class="botones-back">
+
+                        <li><button type="button" class="btn login" data-bs-toggle="modal"
+                              data-bs-target="#editar-proyecto1">
+                              <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                           </button>
+
+                        </li>
+                        <li><button type="button" class="btn login" data-bs-toggle="modal"
+                              data-bs-target="#eliminar-proyecto1">
+                              <i class="fa-solid fa-trash-can fa-2x" style="color: #1cad7d;"></i>
+                           </button></li>
+                     </ul>
+                  </div>
+                  <!-- Modal  editar-proyecto1-->
+                  <div class="modal fade" id="editar-proyecto1" tabindex="-1" aria-labelledby="#editar-proyecto1"
+                     aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                 aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                              <form>
+                                 <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Imagen</label>
+                                    <input type="file" class="form-control" id="exampleInputPassword1">
+                                 </div>
+
+                                 <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Título</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp">
+
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Descripción</label>
+                                    <textarea class="form-control" id="exampleInputPassword1">
+                                    </textarea>
+                                 </div>
+
+                                 <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Link</label>
+                                    <input type="link" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp">
+
+                                 </div>
+
+                                 <button type="submit" class="btn btn-primary">Guardar</button>
+                              </form>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Final modal editar-proyecto1-->
+
+                  <!-- Modal  eliminar-proyecto1-->
+                  <div class="modal fade" id="eliminar-proyecto1" tabindex="-1" aria-labelledby="#eliminar-proyecto1"
+                     aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                 aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                              <p>¿Desea eliminar este proyecto?</p>
+
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si</button>
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Final modal-eliminar-proyecto1 -->
                </div>
+
                <div class="col-lg-4 col-sm-12 proyecto">
                   <div class="card " style="width: 18rem;">
                      <img src="img/proyecto2.PNG" class="card-img-top" alt="...">
@@ -1076,6 +1725,95 @@
                            la Página</a>
                      </div>
                   </div>
+                  <!-- Botones Modales-->
+
+                  <div class="col-lg-12 col-sm-12 ">
+                     <ul class="botones-back">
+
+                        <li><button type="button" class="btn login" data-bs-toggle="modal"
+                              data-bs-target="#editar-proyecto2">
+                              <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                           </button>
+
+                        </li>
+                        <li><button type="button" class="btn login" data-bs-toggle="modal"
+                              data-bs-target="#eliminar-proyecto2">
+                              <i class="fa-solid fa-trash-can fa-2x" style="color: #1cad7d;"></i>
+                           </button></li>
+                     </ul>
+                  </div>
+                  <!-- Modal  editar-proyecto2-->
+                  <div class="modal fade" id="editar-proyecto2" tabindex="-1" aria-labelledby="#editar-proyecto2"
+                     aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                 aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                              <form>
+                                 <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Imagen</label>
+                                    <input type="file" class="form-control" id="exampleInputPassword1">
+                                 </div>
+
+                                 <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Título</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp">
+
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Descripción</label>
+                                    <textarea class="form-control" id="exampleInputPassword1">
+                                                                  </textarea>
+                                 </div>
+
+                                 <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Link</label>
+                                    <input type="link" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp">
+
+                                 </div>
+
+                                 <button type="submit" class="btn btn-primary">Guardar</button>
+                              </form>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Final modal editar-proyecto2-->
+
+                  <!-- Modal  eliminar-proyecto2-->
+                  <div class="modal fade" id="eliminar-proyecto2" tabindex="-1" aria-labelledby="#eliminar-proyecto2"
+                     aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                 aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                              <p>¿Desea eliminar este proyecto?</p>
+
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si</button>
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Final modal-eliminar-proyecto2 -->
                </div>
                <div class="col-lg-4 col-sm-12 proyecto">
                   <div class="card " style="width: 18rem;">
@@ -1087,8 +1825,97 @@
                         <a target="_blank" href="https://centroprivadosegura.com.ar/" class="btn btn-primary">Ir
                            a la Página</a>
                      </div>
-                  </div>
 
+                  </div>
+                  <!-- Botones Modales-->
+
+                  <div class="col-lg-12 col-sm-12 ">
+                     <ul class="botones-back">
+
+                        <li><button type="button" class="btn login" data-bs-toggle="modal"
+                              data-bs-target="#editar-proyecto3">
+                              <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                           </button>
+
+                        </li>
+                        <li><button type="button" class="btn login" data-bs-toggle="modal"
+                              data-bs-target="#eliminar-proyecto3">
+                              <i class="fa-solid fa-trash-can fa-2x" style="color: #1cad7d;"></i>
+                           </button></li>
+                     </ul>
+                  </div>
+                  <!-- Modal  editar-proyecto3-->
+                  <div class="modal fade" id="editar-proyecto3" tabindex="-1" aria-labelledby="#editar-proyecto3"
+                     aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                 aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                              <form>
+                                 <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Imagen</label>
+                                    <input type="file" class="form-control" id="exampleInputPassword1">
+                                 </div>
+
+                                 <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Título</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp">
+
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Descripción</label>
+                                    <textarea class="form-control" id="exampleInputPassword1">
+                                                                  </textarea>
+                                 </div>
+
+                                 <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Link</label>
+                                    <input type="link" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp">
+
+                                 </div>
+
+                                 <button type="submit" class="btn btn-primary">Guardar</button>
+                              </form>
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Final modal editar-proyecto3-->
+
+                  <!-- Modal  eliminar-proyecto3-->
+                  <div class="modal fade" id="eliminar-proyecto3" tabindex="-1" aria-labelledby="#eliminar-proyecto3"
+                     aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Eliminar</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                 aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                              <p>¿Desea eliminar este lenguaje?</p>
+
+                           </div>
+                           <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Si</button>
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Final modal-eliminar-proyecto3 -->
                </div>
             </div>
          </div>
@@ -1106,6 +1933,7 @@
                      </h6>
                   </div>
                   <p>266-4253375</p>
+
                </div>
                <div class="col-lg-4 col-sm-12">
                   <div class="d-flex row">
@@ -1129,6 +1957,62 @@
             </div>
 
          </div>
+         <!-- Botones Modales-->
+
+         <div class="col-lg-12 col-sm-12 ">
+            <ul class="botones-back">
+
+               <li><button type="button" class="btn login" data-bs-toggle="modal" data-bs-target="#editar-contacto">
+                     <i class="fa-solid fa-pen-to-square fa-2x" style="color: #1cad7d;"></i>
+
+                  </button>
+
+               </li>
+
+            </ul>
+         </div>
+         <!-- Modal  editar-contacto-->
+         <div class="modal fade" id="editar-contacto" tabindex="-1" aria-labelledby="#editar-contacto"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered ">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                     <form>
+
+                        <div class="mb-3">
+                           <label for="exampleInputEmail1" class="form-label">Teléfono</label>
+                           <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="mb-3">
+                           <label for="exampleInputPassword1" class="form-label">Dirección</label>
+                           <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                           <label for="exampleInputEmail1" class="form-label">Email</label>
+                           <input type="email" class="form-control" id="exampleInputEmail1"
+                              aria-describedby="emailHelp">
+
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                     </form>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Final modal editar-contacto-->
+
+
       </section>
 
    </main>
